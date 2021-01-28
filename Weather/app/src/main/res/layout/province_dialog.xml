@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="385dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog_listview">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="특별,광역시 / 도"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/provinceet1"
+        android:layout_width="match_parent"
+        android:layout_height= "40dp"
+        android:gravity="center"
+        android:hint="Test"/>
+
+    <ListView
+        android:id="@+id/provincelv1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+</LinearLayout>
